@@ -19,10 +19,11 @@ builder.Services.AddScoped<WeatherService>();
 builder.Services.AddBlazoredLocalStorage();
 
 // Add Custom Authentication and HTTP Handler services
-builder.Services.AddTransient<CustomHttpHandler>();
+builder.Services.AddTransient<CutomHttpHandler>();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 builder.Services.AddScoped(sp => (IAccountManagement)sp.GetRequiredService<AuthenticationStateProvider>());
 
+// Register HttpClient services with Render API URL
 // Use a dynamic base address for HttpClient
 var baseAddress = builder.HostEnvironment.IsProduction()
     ? "https://webapi-8j7b.onrender.com" // Production Render API
@@ -33,9 +34,9 @@ builder.Services.AddScoped(sp => new HttpClient
     BaseAddress = new Uri(baseAddress)
 });
 
-// Add HTTP Client for authentication
+// Add HTTP Client for authentication (if needed)
 builder.Services.AddHttpClient("Auth", opt => opt.BaseAddress =
-    new Uri(baseAddress)) // Use the dynamic API URL for authentication
-    .AddHttpMessageHandler<CustomHttpHandler>();
+    new Uri("https://webapi-8j7b.onrender.com")) // Use the Render API URL for authentication as well
+    .AddHttpMessageHandler<CutomHttpHandler>();
 
 await builder.Build().RunAsync();
