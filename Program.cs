@@ -1,5 +1,5 @@
 using wasm;
-using wasm.Sevices;
+using wasm.Services;
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.Web;
@@ -19,19 +19,23 @@ builder.Services.AddScoped<WeatherService>();
 builder.Services.AddBlazoredLocalStorage();
 
 // Add Custom Authentication and HTTP Handler services
-builder.Services.AddTransient<CutomHttpHandler>();
+builder.Services.AddTransient<CustomHttpHandler>();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 builder.Services.AddScoped(sp => (IAccountManagement)sp.GetRequiredService<AuthenticationStateProvider>());
 
-// Register HttpClient services with Render API URL
+// Use a dynamic base address for HttpClient
+var baseAddress = builder.HostEnvironment.IsProduction()
+    ? "https://webapi-8j7b.onrender.com" // Production Render API
+    : "https://localhost:5001";          // Local Development API
+
 builder.Services.AddScoped(sp => new HttpClient
 {
-    BaseAddress = new Uri("https://webapi-8j7b.onrender.com") // Set the Render API URL directly here
+    BaseAddress = new Uri(baseAddress)
 });
 
-// Add HTTP Client for authentication (if needed)
+// Add HTTP Client for authentication
 builder.Services.AddHttpClient("Auth", opt => opt.BaseAddress =
-    new Uri("https://webapi-8j7b.onrender.com")) // Use the Render API URL for authentication as well
-    .AddHttpMessageHandler<CutomHttpHandler>();
+    new Uri(baseAddress)) // Use the dynamic API URL for authentication
+    .AddHttpMessageHandler<CustomHttpHandler>();
 
 await builder.Build().RunAsync();
