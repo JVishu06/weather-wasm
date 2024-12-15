@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\wasm.styles.css",
+      "PackagePath": "staticwebassets\\wasm.styles.css"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\cities.json",
+      "PackagePath": "staticwebassets\\cities.json"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\data\\cities.json",
+      "PackagePath": "staticwebassets\\data\\cities.json"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\chatbot.png",
+      "PackagePath": "staticwebassets\\images\\chatbot.png"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\cloud.jpg",
+      "PackagePath": "staticwebassets\\images\\cloud.jpg"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\deerpurple.jpg",
+      "PackagePath": "staticwebassets\\images\\deerpurple.jpg"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\deerpurplecut.jpg",
+      "PackagePath": "staticwebassets\\images\\deerpurplecut.jpg"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\deerpurplefinal.jpg",
+      "PackagePath": "staticwebassets\\images\\deerpurplefinal.jpg"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\deerpurplenav.jpg",
+      "PackagePath": "staticwebassets\\images\\deerpurplenav.jpg"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\deerpurplenavmenu.jpg",
+      "PackagePath": "staticwebassets\\images\\deerpurplenavmenu.jpg"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\top.jpg",
+      "PackagePath": "staticwebassets\\images\\top.jpg"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\images\\vis.jpg",
+      "PackagePath": "staticwebassets\\images\\vis.jpg"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\wasm\\wasm\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.wasm.props",
+      "PackagePath": "build\\wasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.wasm.props",
+      "PackagePath": "buildMultiTargeting\\wasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.wasm.props",
+      "PackagePath": "buildTransitive\\wasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.wasm.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.wasm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
