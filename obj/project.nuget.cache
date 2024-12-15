@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S+Pu2T9Twr8=",
+  "dgSpecHash": "i6BSZ/8ohY0=",
   "success": true,
-  "projectFilePath": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\weather-wasm\\wasm\\wasm.csproj",
+  "projectFilePath": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\weather-wasm\\wasm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roboc\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\roboc\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.3\\microsoft.aspnetcore.authorization.8.0.3.nupkg.sha512",

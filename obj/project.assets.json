@@ -2483,11 +2483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\weather-wasm\\wasm\\wasm.csproj",
+      "projectUniqueName": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\weather-wasm\\wasm.csproj",
       "projectName": "wasm",
-      "projectPath": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\weather-wasm\\wasm\\wasm.csproj",
+      "projectPath": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\weather-wasm\\wasm.csproj",
       "packagesPath": "C:\\Users\\roboc\\.nuget\\packages\\",
-      "outputPath": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\weather-wasm\\wasm\\obj\\",
+      "outputPath": "V:\\ARTIFICIAL-INTELLIGENCE(DON'TDELETE)\\weather-wasm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

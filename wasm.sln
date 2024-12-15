@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wasm", "wasm\wasm.csproj", "{B052F2C9-450C-43FD-B457-AF6BECC40617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wasm", "wasm.csproj", "{B052F2C9-450C-43FD-B457-AF6BECC40617}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
